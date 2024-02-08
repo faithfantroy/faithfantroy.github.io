@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: yellow;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    min-height: 40px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-photo img {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-description {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.work-sample img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 400;
+}
+
+.work-sample img {
+    margin-right: 10px;
+    width: 300;
+}
+
+#footer {
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
